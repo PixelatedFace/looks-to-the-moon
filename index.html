@@ -10,24 +10,40 @@
 <body>
     <style>
         body{
-            background-color: black;
+            background-color: #000213;
+            
+
+            position: relative;
+        }
+        #bg{
+            position: absolute;
         }
         p{
-            color: white;
-            font-family: monospace;
+            color: #f5d801ff;
+            font-family: Calibri, sans-serif;
             text-align: center;
         }
         #txt{
-            font-size: 125px;
+            position: absolute;
+            margin-left: 300px;
+            margin-top: 200px;
+            font-size: 208px;
+            
         }
         #extra{
             font-size: 16px;
         }
+        #moon{
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 520px;
+        }
 
     </style>
 
-    <p id="txt"></p>
-    <p id="extra"></p>
+    <img id="bg">
+    <img id="moon" src="full_moon.svg">
+    <b><p id="txt">25</p></b>
     <script src="index.js"></script>
 </body>
 </html>

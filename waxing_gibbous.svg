@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64mm"
+   height="64mm"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="waxing_gibbous.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4488348"
+     inkscape:cx="138.04196"
+     inkscape:cy="158.40315"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#f5d801;fill-opacity:1;stroke-width:0.242847"
+       id="path1"
+       cx="32"
+       cy="32.000015"
+       r="32" />
+    <path
+       id="circle5"
+       style="fill:#322d31;fill-opacity:1;stroke-width:0.253908"
+       d="M 32.000114 1.9998779 A 30 30 0 0 0 27.901139 2.2928833 A 30 30 0 0 0 26.570988 2.5574666 A 30 30 0 0 0 23.876579 3.1439941 A 30 30 0 0 0 22.34799 3.6628255 A 30 30 0 0 0 20.012215 4.5335734 A 30 30 0 0 0 18.459338 5.2994181 A 30 30 0 0 0 16.366443 6.4425008 A 30 30 0 0 0 14.892114 7.4274536 A 30 30 0 0 0 13.012126 8.8351196 A 30 30 0 0 0 11.670605 10.011275 A 30 30 0 0 0 10.011275 11.670605 A 30 30 0 0 0 8.8351196 13.012126 A 30 30 0 0 0 7.4274536 14.892114 A 30 30 0 0 0 6.4425008 16.366443 A 30 30 0 0 0 5.2994181 18.459338 A 30 30 0 0 0 4.5335734 20.012215 A 30 30 0 0 0 3.6628255 22.34799 A 30 30 0 0 0 3.1439941 23.876579 A 30 30 0 0 0 2.5574666 26.570988 A 30 30 0 0 0 2.2928833 27.901139 A 30 30 0 0 0 1.9998779 32.000114 A 30 30 0 0 0 2.2928833 36.098055 A 30 30 0 0 0 2.5585002 37.432857 A 30 30 0 0 0 3.1439941 40.123132 A 30 30 0 0 0 3.661792 41.649137 A 30 30 0 0 0 4.5346069 43.989563 A 30 30 0 0 0 5.2978678 45.537272 A 30 30 0 0 0 6.4430176 47.634302 A 30 30 0 0 0 7.4274536 49.108114 A 30 30 0 0 0 8.8335693 50.986035 A 30 30 0 0 0 10.016443 52.33479 A 30 30 0 0 0 11.665438 53.983785 A 30 30 0 0 0 13.014193 55.166659 A 30 30 0 0 0 14.892114 56.572774 A 30 30 0 0 0 16.365926 57.55721 A 30 30 0 0 0 18.462439 58.701843 A 30 30 0 0 0 20.012215 59.466138 A 30 30 0 0 0 22.334554 60.332235 A 30 30 0 0 0 23.881746 60.857267 A 30 30 0 0 0 26.561169 61.440177 A 30 30 0 0 0 27.901139 61.706828 A 30 30 0 0 0 32.000114 61.999833 A 30 30 0 0 0 34.50022 61.821033 A 30 30 0 0 1 7.0000895 32.000114 A 30 30 0 0 1 34.952389 2.1461222 A 30 30 0 0 0 32.000114 1.9998779 z " />
+  </g>
+</svg>

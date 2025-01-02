@@ -27,29 +27,32 @@ const normalize  = value => {
 const getLunarPhase = (date = new Date()) => {
     const age = getLunarAge(date);
     if(age < 1.84566)
-        return "New";
+        return "new_moon";
     else if(age < 5.53699)
-        return "Waxing Crescent";
+        return "waxing_crescent";
     else if(age < 9.22831)
-        return "First Quarter";
+        return "first_quarter";
     else if(age < 12.91963)
-        return "Waxing Gibbous";
+        return "waxing_gibbous";
     else if(age < 16.61096)
-        return "Full"; // Are you aware that the moon grows full...?
+        return "full_moon"; // Are you aware that the moon grows full...?
     else if(age < 20.30228)
-        return "Waning Gibbous";
+        return "waning_gibbous";
     else if(age < 23.99361)
-        return "Last Quarter";
+        return "last_quarter";
     else if(age < 27.68493)
-        return "Waning Crescent";
+        return "waning_crescent";
 
-    return "New";
+    return "new_moon";
 }
 
 let days_till_full_moon = 0
 let date = new Date()
 
-while(getLunarPhase(date) != "Full"){
+
+
+
+while(getLunarPhase(date) != "full_moon"){
     days_till_full_moon += 1;
     date.setDate(date.getDate() + 1)
     if(days_till_full_moon > 32)
@@ -57,13 +60,16 @@ while(getLunarPhase(date) != "Full"){
 }
 
 let str = "Error"
-let extra = ""
+str = `${days_till_full_moon}`
 if(days_till_full_moon == 0){
-    str = "Are you aware that the moon grows full...?"
-    extra = "Full moon again. Crazy how time flies."
+    str = ""
+    document.getElementById('bg').src = 'background_full.svg'
+    document.body.style.backgroundColor = "#051f01"
+}else{
+    document.getElementById('bg').src = 'background.svg'
+    document.body.style.backgroundColor = "#000213"
 }
-else
-    str = `LIMIT ${days_till_full_moon}`
+
 
 document.getElementById('txt').textContent = str
-document.getElementById('extra').textContent = extra
+document.getElementById('moon').src = `${getLunarPhase(new Date())}.svg`

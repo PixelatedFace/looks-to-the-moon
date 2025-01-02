@@ -42,7 +42,6 @@ const getLunarPhase = (date = new Date()) => {
         return "last_quarter";
     else if(age < 27.68493)
         return "waning_crescent";
-
     return "new_moon";
 }
 

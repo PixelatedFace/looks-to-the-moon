@@ -71,4 +71,8 @@ if(days_till_full_moon == 0){
 
 
 document.getElementById('txt').textContent = str
-document.getElementById('moon').src = `${getLunarPhase(new Date())}.svg`
+document.title = "LIMIT " + str
+
+var path = `${getLunarPhase(new Date())}.svg`
+document.getElementById('moon').src = path
+document.getElementById('favicon').setAttribute('href', path)

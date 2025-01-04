@@ -1,4 +1,3 @@
-
 const getJulianDate = (date = new Date()) => {
     const time = date.getTime();
     const tzoffset = date.getTimezoneOffset();

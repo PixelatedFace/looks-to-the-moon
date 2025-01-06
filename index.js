@@ -62,15 +62,17 @@ str = `${days_till_full_moon}`
 if(days_till_full_moon == 0){
     str = ""
     document.getElementById('bg').src = 'background_full.svg'
+    document.title = "FULL"
     document.body.style.backgroundColor = "#051f01"
 }else{
     document.getElementById('bg').src = 'background.svg'
     document.body.style.backgroundColor = "#000213"
+    document.title = "LIMIT " + str
 }
 
 
 document.getElementById('txt').textContent = str
-document.title = "LIMIT " + str
+
 
 var path = `${getLunarPhase(new Date())}.svg`
 document.getElementById('moon').src = path
